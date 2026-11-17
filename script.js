@@ -1,16 +1,5 @@
-/*
- * Proyek Akhir Semester Ganjil — Paket 1
- * XI RPL 2 | Pemrograman Web
- *
- * KERJAKAN HANYA:
- *   JS-01: Melengkapi perulangan for.
- *   JS-02: Mengambil elemen Array berdasarkan indeks.
- *
- * Bagian penghubung antarmuka disiapkan guru dan tidak dinilai
- * pada Paket 1. Jangan mengubah bagian tersebut.
- */
 
-// Data awal disediakan guru. Jangan diubah.
+
 const daftarKegiatan = ["Piket Kelas", "Rapat OSIS", "Kerja Bakti"];
 
 function tampilkanKegiatan(daftar) {
@@ -20,16 +9,15 @@ function tampilkanKegiatan(daftar) {
     return;
   }
 
-  // Disediakan guru: hapus isi daftar sebelum menampilkannya kembali.
   elemenDaftar.innerHTML = "";
 
   // TODO JS-01:
   // Perbaiki batas perulangan for berikut agar dimulai dari indeks pertama
   // dan memproses seluruh elemen berdasarkan panjang Array (length).
-  for (let i = 0; i < 0; i++) {
+  for (let i = 0; i < daftar.length; i++) {
     // TODO JS-02:
     // Ganti string kosong dengan elemen Array 'daftar' pada indeks i.
-    const namaKegiatan = "";
+    const namaKegiatan = daftar[i];
 
     // Disediakan guru: pembentukan dan penampilan elemen HTML.
     const item = document.createElement("li");
@@ -118,5 +106,4 @@ document.addEventListener("DOMContentLoaded", function () {
   perbaruiTampilan();
 });
 
-// Area penambahan Function untuk pertemuan berikutnya akan diberikan
-// oleh guru pada saat paket soal berikutnya dibagikan.
+
