@@ -17,7 +17,7 @@ Aplikasi pengelolaan kegiatan kelas menggunakan HTML, CSS, dan JavaScript.
 ## Status Pengerjaan
 
 **Paket 1 — 17 November 2026:** melengkapi struktur HTML, tampilan CSS,
-dan penampilan data awal dari Array menggunakan perulangan.
+dan penampilan data awal dari Array menggunakan perulangan menggunakan fitur JavaScript.
 
 ## Cara Menjalankan
 
